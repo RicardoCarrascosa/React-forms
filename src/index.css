@@ -1,0 +1,12 @@
+:root {
+  --primary-bg-color: #6d6875;
+  --secondary-bg-color: #86bbbd;
+  --font-color: rgba(0, 0, 0, 0.8);
+  --alert-color: #ffcdb2;
+  --font-family: 'Montserrat', sans-serif;
+  --form-border-color: rgba(0, 0, 0, 0.1);
+}
+
+.body {
+  background-color: blanchedalmond;
+}

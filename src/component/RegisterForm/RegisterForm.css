@@ -1,0 +1,50 @@
+.error {
+  color: var(--alert-color);
+  align-self: end;
+}
+form {
+  background-color: var(--primary-bg-color);
+  min-width: 100px;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  & input {
+    border: 1px solid var(--form-border-color);
+    border-radius: 4px;
+    line-height: 150%;
+    padding-left: 10px;
+    &:focus {
+      outline: 2px solid var(--secondary-bg-color);
+    }
+  }
+
+  & input label {
+    color: var(--font-color);
+  }
+  & label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  & button {
+    border: none;
+    color: cornsilk;
+    background-color: var(--secondary-bg-color);
+    border-radius: 20px;
+    height: 38px;
+    align-self: flex-end;
+    outline: none;
+    width: 80px;
+    &:hover {
+      background-color: black;
+    }
+  }
+}
